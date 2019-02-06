@@ -1,0 +1,19 @@
+/*This solution is for some browser features.*/
+/*Created by Daria Plotnikova, 2017*/
+.container {
+  width: 100%;
+  height: 560px;
+  max-height: 560px;
+  overflow-y: scroll;
+  background: #FFFFFF;
+  scrollbar-width: none; }
+@-moz-document url-prefix() {
+  .container {
+    margin-right: -15px;
+    overflow: -moz-scrollbars-none;
+    overflow-y: -moz-scrollbars-none;
+    overflow-x: hidden; } }
+  .container::-webkit-scrollbar {
+    display: none; }
+
+/*# sourceMappingURL=style.css.map */
